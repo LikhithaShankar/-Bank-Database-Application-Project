@@ -21,7 +21,7 @@ public class Withdrawmoney extends HttpServlet {
 	
 	String url ="jdbc:mysql://localhost:3306/project";
 	String un = "root";
-	String pn = "Likhitha@823";
+	String pn = "password";
 	Connection con = null;
 	PreparedStatement pstmt = null;
 	PreparedStatement pstmt1 = null;
