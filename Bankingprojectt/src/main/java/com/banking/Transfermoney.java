@@ -20,7 +20,7 @@ public class Transfermoney extends HttpServlet {
 
     String url = "jdbc:mysql://localhost:3306/project";
     String username = "root";
-    String password = "Likhitha@823";
+    String password = "password";
     Connection con = null;
     PreparedStatement pstmt = null;
     PreparedStatement pstmt1 = null;
