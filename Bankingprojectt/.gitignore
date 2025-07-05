@@ -1,0 +1,15 @@
+# Ignore application.properties with DB password
+src/main/resources/application.properties
+
+# Ignore Eclipse and Java build files
+.classpath
+.project
+.settings/
+bin/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore compiled classes
+*.class
