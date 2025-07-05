@@ -31,7 +31,7 @@ public class Login extends HttpServlet {
 	        // Database connection details
 	        String dbURL = "jdbc:mysql://localhost:3306/project";
 	        String dbUser = "root";
-	        String dbPassword = "Likhitha@823";
+	        String dbPassword = "password";
 
 	        try {
 	            // Load the MySQL JDBC driver
