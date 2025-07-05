@@ -18,7 +18,7 @@ public class Createaccount extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	String url ="jdbc:mysql://localhost:3306/project";
 	String un = "root";
-	String pn ="Likhitha@823";
+	String pn ="password";
 	Connection con = null;
 	PreparedStatement pstmt = null;
 	String query = "insert into createaccount values(?,?,?,?);";
