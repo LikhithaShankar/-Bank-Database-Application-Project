@@ -21,7 +21,7 @@ public class Depositmoney extends HttpServlet {
     // Database connection information
     String url = "jdbc:mysql://localhost:3306/project";
     String username = "root";
-    String password = "Likhitha@823";
+    String password = "password";
     
     Connection con = null;
     PreparedStatement pstmt = null;
